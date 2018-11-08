@@ -1,0 +1,26 @@
+{
+  "name": "ali-utils",
+  "version": "0.9.0",
+  "description": "a simple js utility that I use for my own projects",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "keywords": [
+    "util",
+    "express",
+    "middleware"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AliSawari/Ali-Utils.git"
+  },
+
+  "author": "Ali Sawari <ali.dragon.swr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
