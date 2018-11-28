@@ -1,7 +1,7 @@
 # Ali-Utils :construction_worker_man: :hammer_and_wrench:
 [![dependencies Status](https://david-dm.org/AliSawari/ali-utils/status.svg)](https://david-dm.org/AliSawari/ali-utils)
+[![version](https://badgen.net/npm/v/ali-utils)](https://www.npmjs.com/package/ali-utils)
 [![npm](https://img.shields.io/npm/dt/ali-utils.svg)](https://www.npmjs.com/package/ali-utils)
-
 
 **My Own mini Utils that I use in order to stop re-writing repetetive code**
 
