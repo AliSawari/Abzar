@@ -1,4 +1,5 @@
-# Ali-Utils :construction_worker_man: :hammer_and_wrench: 
+# Ali-Utils :construction_worker_man: :hammer_and_wrench:
+[![dependencies Status](https://david-dm.org/AliSawari/ali-utils/status.svg)](https://david-dm.org/AliSawari/ali-utils)
 
 **My Own mini Utils that I use in order to stop re-writing repetetive code**
 
