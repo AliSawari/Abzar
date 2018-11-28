@@ -3,16 +3,14 @@
   "version": "0.8.0",
   "description": "a simple js utility that I use for my own projects",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "postinstall": "tsc"
   },
   "keywords": [
     "util",
-    "express",
-    "middleware"
+    "utility",
+    "small",
+    "simple"
   ],
   "repository": {
     "type": "git",
