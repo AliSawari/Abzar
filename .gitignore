@@ -1,5 +1,5 @@
 node_modules
-libs/
+lib/
 # Logs
 *.log
 npm-debug.log*
