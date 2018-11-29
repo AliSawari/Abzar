@@ -13,10 +13,12 @@ or
 
 `npm i ali-utils --save`
 
+**IMPORTANT NOTE**: I'm still writing the core libraries, some libs are still unfinished.
+
 ## Use
 **a few examples here:**
 
-'Copy' creates a new object from another object, so changing the copy object 
+**'Copy'** creates a new object from another object, so changing the copy object 
 wont change the origin one
 ```js
 import {Copy} from 'ali-utils'
@@ -39,6 +41,25 @@ var jane = Copy(john, {
   name: 'jane'
 })
 ```
+
+**'Exclude'** is a function which removes the specified properties.
+write the names of the properties you want to exclude inside an array.
+
+```js
+import {Exclude} from 'ali-utils'
+
+var myData = {
+  name: 'john',
+  lastName: 'doe',
+  facebook_username: 'john_doe',
+  facebook_password: 'johndoe123'
+}
+
+var securedData = Exclude(myData, ['facebook_password'])
+
+console.log(securedData)
+```
+
 
 ## License
 
