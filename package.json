@@ -23,5 +23,8 @@
     "@types/node": "^10.12.9",
     "chalk": "^2.4.1",
     "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
