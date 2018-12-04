@@ -11,7 +11,7 @@ describe("-- Copy.js Tests --", () => {
     expect(jane).toEqual(john)
   })
 
-  it('Should create a copy and modifies it', () => {
+  it('Should create a copy and modify it', () => {
     let john = {
       name: 'john',
       age: 20
@@ -21,7 +21,7 @@ describe("-- Copy.js Tests --", () => {
       name: 'jane',
       age: 18
     }
-    expect(jane).not.toBe(john)
+    expect(jane).not.toEqual(john)
     expect(jane).toEqual(jane2)
   })
 })
