@@ -1,11 +1,13 @@
 {
   "name": "ali-utils",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "a simple js utility that I use for my own projects",
   "main": "index.js",
   "scripts": {
-    "postinstall": "tsc",
-    "test": "jest"
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "jest",
+    "prepublish": "npm test"
   },
   "keywords": [
     "util",
@@ -18,6 +20,13 @@
     "url": "git@github.com:AliSawari/Ali-Utils.git"
   },
   "author": "Ali Sawari <ali.dragon.swr@gmail.com>",
+  "maintainers": [
+    {
+      "email": "ali.dragon.swr@gmail.com",
+      "name": "Ali Sawari",
+      "url": "https://github.com/AliSawari"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.16.0",
