@@ -4,7 +4,8 @@
   "description": "a simple js utility that I use for my own projects",
   "main": "index.js",
   "scripts": {
-    "postinstall": "tsc"
+    "postinstall": "tsc",
+    "test": "jest"
   },
   "keywords": [
     "util",
