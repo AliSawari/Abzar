@@ -1,7 +1,7 @@
-import chalker from './chalker'
-import copy from './copy'
-import exclude from './exclude'
+import Chalker from './chalker'
+import Copy from './copy'
+import Exclude from './exclude'
 import isThere from './isThere'
-import paginator from './paginator'
+import Paginator from './paginator'
 
-export {chalker,copy,exclude,isThere,paginator}
+export {Chalker,Copy,Exclude,isThere,Paginator}
