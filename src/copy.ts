@@ -14,9 +14,7 @@ export default function Copy(origin:object, toChange?:object):object{
     for(let x in toChange){
       c[x] = toChange[x] 
     }
-    return c
-  } else {
-    return c
   }
+    return c
 }
 
