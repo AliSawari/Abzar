@@ -19,14 +19,11 @@ export default function Paginator(arr:any[], pageSize:number){
 
     if(pages>0){
       var counter = 0;
-      for(let x=1;x<=pages;x++){
-        if(x===1){
-          indexer[`page${x}`] = arr.slice(0, pageSize);
-          counter = pageSize;
-        } else {
+      indexer[`page${1}`] = arr.slice(0, pageSize);
+      counter = pageSize;
+      for(let x=2;x<=pages;x++){
           indexer[`page${x}`] = arr.slice(counter, counter + pageSize);
           counter = counter + pageSize;
-        }
       }
     } else {
       indexer['page1'] = arr;
