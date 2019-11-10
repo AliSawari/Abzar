@@ -28,12 +28,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@types/express": "^4.16.0",
-    "@types/node": "^10.12.9",
-    "chalk": "^2.4.1",
-    "typescript": "^3.2.1"
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.7",
+    "chalk": "^3.0.0",
+    "typescript": "^3.7.2"
   },
   "devDependencies": {
-    "jest": "^24.0.0"
+    "jest": "^24.9.0"
   }
 }
