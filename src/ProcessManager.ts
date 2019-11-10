@@ -68,7 +68,7 @@ const NodeProcess = {
   name: "node.exe",
   services: {info: "NodeJS: Server-Side JavaScript"},
   tasks: {
-    InitTask : () => `${this.name} has started`
+    InitTask : () => `started`
   },
 }
 
@@ -76,7 +76,7 @@ const AtomProcess = {
   name: "atom.exe",
   services: {info: "a Free Hackable Text Editor for 21th century"},
   tasks: {
-    InitTask : () => `${this.name} has started`
+    InitTask : () => `started`
   },
 }
 
