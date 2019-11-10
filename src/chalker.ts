@@ -28,14 +28,11 @@ export default function chalker():Function {
     for(let x in arguments){
       kargs.push(arguments[x])
     }
-    let pet:string = '('
-    kargs.map((k,d) => {
-      if(d === kargs.length){
-        pet += `'${k}'`
-      } else {
-        pet += `'${k}',`
-      }
-    })
+    let pet:string = `('${kargs[0]}'`
+    const kargs_len:Number = kargs.length
+    for(let i=1; i<kargs_len; i++){
+        pet += `,'${kargs[i]}'`
+    }
     newChain += pet + ')'
     return eval(newChain)
   }
