@@ -16,7 +16,7 @@ export default function Paginator(arr:any[], pageSize:number){
         pages = pages + 1;
       }
     })
-
+    // alright maybe a new line here
     if(pages>0){
       var counter = 0;
       indexer[`page${1}`] = arr.slice(0, pageSize);
