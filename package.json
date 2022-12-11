@@ -2,7 +2,7 @@
   "name": "ali-utils",
   "version": "0.8.3",
   "description": "a simple js utility that I use for my own projects",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "tsc",
     "postinstall": "npm run build",
