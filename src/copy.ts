@@ -1,9 +1,5 @@
-export function Copy(origin: object, toChange?: object): object {
-  return {}
+export default function Copy<T extends object>(origin: T, toChange?: T): T {
+  const strings = JSON.stringify(origin);
+  const newObj = new Object(JSON.parse(strings));
+  return newObj as any;
 }
-
-export const TENDER = 78;
-
-export const double = (a: number) => a * a 
-
-export default Copy;
