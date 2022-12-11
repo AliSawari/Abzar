@@ -1,17 +1,16 @@
-# Ali-Utils :construction_worker_man: :hammer_and_wrench:
-[![Build Status](https://travis-ci.org/AliSawari/Ali-Utils.svg?branch=master)](https://travis-ci.org/AliSawari/Ali-Utils)
-[![version](https://badgen.net/npm/v/ali-utils)](https://www.npmjs.com/package/ali-utils)
-[![npm](https://img.shields.io/npm/dt/ali-utils.svg)](https://www.npmjs.com/package/ali-utils)
+# Abzar :construction_worker_man: :hammer_and_wrench:
 
 **My Own mini Utils that I use in order to stop re-writing repetetive code**
 
+_Abzar ابزار means Utils in Persian_ 
+
 ## install
 
-`yarn add ali-utils`
+`yarn add abzar`
 
 or
 
-`npm i ali-utils --save`
+`npm i abzar --save`
 
 **IMPORTANT NOTE**: I'm still writing the core libraries, some libs are still unfinished.
 
@@ -21,7 +20,7 @@ or
 **'Copy'** creates a new object from another object, so changing the copy object 
 wont change the origin one
 ```js
-import {Copy} from 'ali-utils'
+import { Copy } from 'abzar'
 
 var john = {
   name: 'john',
@@ -46,7 +45,7 @@ var jane = Copy(john, {
 write the names of the properties you want to exclude inside an array.
 
 ```js
-import {Exclude} from 'ali-utils'
+import {Exclude} from 'abzar'
 
 var myData = {
   name: 'john',

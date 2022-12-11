@@ -1,5 +1,5 @@
 {
-  "name": "ali-utils",
+  "name": "abzar",
   "version": "0.8.3",
   "description": "a simple js utility that I use for my own projects",
   "main": "main.js",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:AliSawari/Ali-Utils.git"
+    "url": "git@github.com:AliSawari/Abzar.git"
   },
   "author": "Ali Sawari <ali.dragon.swr@gmail.com>",
   "maintainers": [
