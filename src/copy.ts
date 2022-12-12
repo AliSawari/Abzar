@@ -1,5 +1,10 @@
-export default function Copy<T extends object>(origin: T, toChange?: T): T {
+export default function Copy<T extends Object>(origin: T, toChange?: T): T {
   const strings = JSON.stringify(origin);
   const newObj = new Object(JSON.parse(strings));
-  return newObj as any;
+  if (Object.values(toChange).length) {
+    for (let prop in toChange) {
+      newObj[prop as string] = toChange[prop];
+    }
+  }
+  return newObj as T;
 }
