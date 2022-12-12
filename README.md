@@ -1,6 +1,6 @@
 # Abzar :construction_worker_man: :hammer_and_wrench:
 [![Node.js CI](https://github.com/AliSawari/Abzar/actions/workflows/node.js.yml/badge.svg)](https://github.com/AliSawari/Abzar/actions/workflows/node.js.yml)
-![npm](https://img.shields.io/npm/v/abzar)
+[![npm](https://img.shields.io/npm/v/abzar)](https://www.npmjs.com/package/abzar)
 
 **My Own mini Utils that I use in order to stop re-writing repetetive code**
 
@@ -20,7 +20,7 @@ or
 **a few examples here:**
 
 **'Copy'** creates a new object from another object, so changing the copy object 
-wont change the origin one
+wont change the original one
 ```js
 import { Copy } from 'abzar'
 
@@ -31,8 +31,8 @@ var john = {
 
 var jane = Copy(john)
 jane.name = 'jane'
-console.log(jane)
-console.log(john)
+console.log(jane.name) // outputs jane
+console.log(john.name) //outputs john
 ```
 
 NOTE: alternatively, you can specify the data which you want to change 
@@ -58,7 +58,12 @@ var myData = {
 
 var securedData = Exclude(myData, ['facebook_password'])
 
-console.log(securedData)
+console.log(securedData) // outputs:
+// {
+//  name: 'john',
+//  lastName: 'doe',
+//  facebook_username: 'john_doe',
+// }
 ```
 
 
