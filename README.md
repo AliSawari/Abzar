@@ -1,4 +1,5 @@
 # Abzar :construction_worker_man: :hammer_and_wrench:
+[![Node.js CI](https://github.com/AliSawari/Abzar/actions/workflows/node.js.yml/badge.svg)](https://github.com/AliSawari/Abzar/actions/workflows/node.js.yml)
 
 **My Own mini Utils that I use in order to stop re-writing repetetive code**
 
